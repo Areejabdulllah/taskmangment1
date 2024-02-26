@@ -1,9 +1,33 @@
 # taskmangment1
- our main idea for creating this database is "task mangment"
- which contians two tables, the first one is "employee"
- which has 1) id 2)name 3)email 4)password 5)role
- the user can register all of the fallowing info
- the seconed table which is "task"
- which has 1)title 2)describtion 3)status 4)due date 5)employee id
- the user can view their own tasks refrencing employee id
+ our main idea for creating this database is "task managment"
+ which contians three schemas, the first one is "employee"
+ which has (id, name, email, password, role),
+ the user can enter all of the information provided.
  
+ 
+ FEATURE LIST FOR EMPLOYEE:
+ 1. Post
+ 2. Get
+ 3. Update
+ 4. Delete 
+ 
+ the seconed schema which is "task"
+ which has (title, describtion, status, due date, employee id)
+ 
+ FEATURE LIST FOR TASKS:
+ 1. Post
+ 2. Get
+ 3. Update
+ 4. Delete
+    
+ the third one which is the "manger" schema
+ which contins (emplyee id, task id), and shows which employee has which task.
+
+  FEATURE LIST FOR MANAGER:
+ 1. Post
+ 2. Get
+    
+
+ 
+![Untitled Diagram drawio-4](https://github.com/Areejabdulllah/taskmangment1/assets/129469372/1b8da494-6d8b-42ba-a0ae-d0b4ee8ff5e6)
+
