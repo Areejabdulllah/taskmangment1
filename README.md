@@ -1,4 +1,7 @@
-# taskmangment1
+## taskmangment1
+
+ App Statement : "A RESTful API integrated with PSQL database for a project task management iOS app"
+ 
  our main idea for creating this database is "task managment"
  which contians three schemas, the first one is "employee"
  which has (id, name, email, password, role),
